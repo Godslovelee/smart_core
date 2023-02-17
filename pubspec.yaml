@@ -20,7 +20,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: '>=2.18.0 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,8 +30,17 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   dotted_border: ^2.0.0+2
+  flutter_hooks:
+  hooks_riverpod:
+  awesome_circular_chart: ^1.0.0
+  flutter_riverpod:
+  auto_size_text: ^3.0.0
+  flutter_dotenv: ^5.0.2
+  flutter_keyboard_visibility: ^5.3.0
+  mqqt_client:
   flutter:
     sdk: flutter
+
 
   flutter_screenutil: ^5.3.1
   flutter_svg: ^1.0.3
@@ -44,6 +53,8 @@ dependencies:
   sliding_up_panel: ^2.0.0+1
   syncfusion_flutter_charts: ^20.1.47+1
   table_calendar: ^3.0.4
+  modal_bottom_sheet: ^2.1.2
+  mockito:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -71,6 +82,19 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - lib/assets/images/favourite.png
+    - lib/assets/images/
+    - lib/assets/icons/
+    - lib/assets/fonts/
+    - lib/assets/images/weather/
+    - lib/assets/images/settings/
+    - lib/assets/icons/svg/
+    - lib/assets/Lottie/
+    - lib/assets/icons/menu_icons/
+    - lib/assets/images/movies/
+
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:

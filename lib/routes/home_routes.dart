@@ -1,5 +1,20 @@
 import 'package:flutter/cupertino.dart';
 
+import '../home/src/screens/device_list_screen/my_list_screen.dart';
+import '../home/src/screens/edit_profile/edit_profile.dart';
+import '../home/src/screens/home_screen/home_screen.dart';
+import '../home/src/screens/login_screen/login_screen.dart';
+import '../home/src/screens/savings_menu_screen/savings_screen.dart';
+import '../home/src/screens/set_event_screen/set_event_screen.dart';
+import '../home/src/screens/settings_screen/settings_screen.dart';
+import '../home/src/screens/smart_ac/smart_ac.dart';
+import '../home/src/screens/smart_fan/smart_fan.dart';
+import '../home/src/screens/smart_light/smart_light.dart';
+import '../home/src/screens/smart_speaker/smart_speaker.dart';
+import '../home/src/screens/smart_tv/smart_tv.dart';
+import '../home/src/screens/splash_screen/splash_screen.dart';
+import '../home/src/screens/stats_screen/stats_screen.dart';
+
 final Map<String, WidgetBuilder> routes = {
   EditProfile.routeName: (context) => const EditProfile(),
   HomeScreen.routeName: (context) => const HomeScreen(),
