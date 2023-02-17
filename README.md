@@ -9,7 +9,10 @@ together we can create the ultimate smart home device app.
 
 ## Setup and How to USe
 First Things First:
-1. Setup MQTT on your terminal(Linux) `sudo  apt-get install mosquitto` 
+1. Setup MQTT on your terminal(Linux) `sudo apt-get install mosquitto`
+2. add repository `sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa`
+3. To also use the extra attributes of the MQTT client (publish and subscribe) we run the following command `sudo apt-get install mosquitto-clients`
+4. run `pub-get` to install all required dependencies used
 
 
 
