@@ -37,7 +37,7 @@ dependencies:
   auto_size_text: ^3.0.0
   flutter_dotenv: ^5.0.2
   flutter_keyboard_visibility: ^5.3.0
-  mqqt_client:
+  mqtt_client: ^9.3.1
   flutter:
     sdk: flutter
 
